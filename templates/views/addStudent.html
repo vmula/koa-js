@@ -1,0 +1,53 @@
+<h2><%= title %></h2>
+<form action="/add" method="POST">
+	<div class="row">
+		<div class="col-6">
+			<label for="firstName" class="form-label">First Name:</label>
+			<input
+				type="text"
+				class="form-control"
+				name="firstName"
+				id="firstName"
+				placeholder="Enter first name"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="col-6">
+			<label for="lastName" class="form-label">Last Name:</label>
+			<input
+				type="text"
+				class="form-control"
+				name="lastName"
+				id="lastName"
+				placeholder="Enter last name"
+				autocomplete="off"
+			/>
+		</div>
+	</div>
+	<div class="row mt-2 mb-3">
+		<div class="col-6">
+			<label for="dob" class="form-label">Date of Birth:</label>
+			<input
+				type="text"
+				class="form-control"
+				name="dob"
+				id="dob"
+				placeholder="Enter date of birth"
+				autocomplete="off"
+			/>
+		</div>
+		<div class="col-6">
+			<label for="yop" class="form-label">Year of Passed:</label>
+			<input
+				type="text"
+				class="form-control"
+				name="yop"
+				id="yop"
+				placeholder="Enter year of passed"
+				autocomplete="off"
+			/>
+		</div>
+	</div>
+	<button type="submit" class="btn btn-primary">Add a Student</button>
+	<button type="reset" class="btn btn-outline-dark">Reset</button>
+</form>

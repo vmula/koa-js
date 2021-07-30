@@ -1,0 +1,30 @@
+{
+	"name": "koa-js",
+	"version": "1.0.0",
+	"description": "Koa js is the modern and minimalist NodeJS Framework. It comes with ES6 features like async await, arrow functions, destructuring etc...",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vmula/koa-js.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vmula/koa-js/issues"
+	},
+	"homepage": "https://github.com/vmula/koa-js#readme",
+	"dependencies": {
+		"koa": "^2.13.1",
+		"koa-bodyparser": "^4.3.0",
+		"koa-ejs": "^4.3.0",
+		"koa-json": "^2.0.2",
+		"koa-router": "^10.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
+}
